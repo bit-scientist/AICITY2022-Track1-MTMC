@@ -10,16 +10,16 @@ This project is implemented with Python3.6+, [Paddle](https://github.com/PaddleP
 ### If you want to reproduce our results on the leaderboard of track1. You can download the prepared data below and put them under the corresponding folders.
 - Detection
   - Please download the **annotation files, pretrained model and best model** from [this link](https://pan.baidu.com/s/1XQ4iwNHkSaYdcPPEDF1cdw) (The password is ``naif``) 
-  - Extract the annotation files under ``DET/Swin-Transformer-Object-Detection/data/annotations``
-  - Extract the pretrained model under ``DET/Swin-Transformer-Object-Detection/pretrained``
-  - Extract the best model under ``DET/Swin-Transformer-Object-Detection/pth``
+  - Extract the annotation files under ``DET/Swin-Transformer-Object-Detection/data/annotations`` (should contain files: `test_all_cls1_only_imgs.json`,  `train-val-cls1.json`,  `val_s05.json`)
+  - Extract the pretrained model under ``DET/Swin-Transformer-Object-Detection/pretrained`` (should contain `cascade_mask_rcnn_swin_base_patch4_window7.pth`)
+  - Extract the best model under ``DET/Swin-Transformer-Object-Detection/pth`` (should contain `best_model.pth`)
 
 - REID
   - Please download the **train data**, **model**  and **detection results** from [this link](https://pan.baidu.com/s/1aNB0Q1dhk0hiOV2MRN1Wng) (The password is ``8738``) 
-  - Extract the real train data under ``REID/carreid-dynamic-aic22/dataset/train_imgs``
-  - Extract the synthetic train data under ``REID/carreid-dynamic-aic22/dataset/syn``
-  - Extract the detection results under ``REID/carreid-dynamic-aic22/dataset/crop_test_det_2666_89``
-  - Extract the model files under ``REID/carreid-dynamic-aic22/output/``
+  - Extract the real train data under ``REID/carreid-dynamic-aic22/dataset/train_imgs`` (`37195` jpg images)
+  - Extract the synthetic train data under ``REID/carreid-dynamic-aic22/dataset/syn`` (`192150` jpg images)
+  - Extract the detection results under ``REID/carreid-dynamic-aic22/dataset/crop_test_det_2666_89`` (`286885` png images)
+  - Extract the model files under ``REID/carreid-dynamic-aic22/output/`` (should contain `convnext_epoch_50.pdparams`,  `hr_epoch_50.pdparams`,  `r50_epoch_50.pdparams  RecModel/eval_feature.log`,  `res2net200_epoch_30.pdparams`,  `resnext101_epoch_50.pdparams`)
   
 - Tracking
   - Please download the **extracted images of test set by ffmpeg** from [this link](https://pan.baidu.com/s/1H0dfVjj4WjttF0cEbnAg7g ) (The password is ``raw1``) and extract it under ``SCMT/dataset/``.

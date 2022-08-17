@@ -10,9 +10,9 @@ This project is implemented with Python3.6+, [Paddle](https://github.com/PaddleP
 ### If you want to reproduce our results on the leaderboard of track1. You can download the prepared data below and put them under the corresponding folders.
 - Detection
   - Please download the **annotation files, pretrained model and best model** from [this link](https://pan.baidu.com/s/1XQ4iwNHkSaYdcPPEDF1cdw) (The password is ``naif``) 
-  - Extract the annotation files under ``DET/swin-transformer-object-detection/data/annotations``
-  - Extract the pretrained model under ``DET/swin-transformer-object-detection/pretrain_model``
-  - Extract the best model under ``DET/swin-transformer-object-detection/pth``
+  - Extract the annotation files under ``DET/Swin-Transformer-Object-Detection/data/annotations``
+  - Extract the pretrained model under ``DET/Swin-Transformer-Object-Detection/pretrained``
+  - Extract the best model under ``DET/Swin-Transformer-Object-Detection/pth``
 
 - REID
   - Please download the **train data**, **model**  and **detection results** from [this link](https://pan.baidu.com/s/1aNB0Q1dhk0hiOV2MRN1Wng) (The password is ``8738``) 
